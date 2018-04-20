@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/quantity_header_marginBottom"
+        android:layout_marginBottom="@dimen/header_marginBottom"
         android:text="@string/textView_quantity_header"
         android:textAllCaps="true" />
 
@@ -19,14 +19,30 @@
         android:id="@+id/quantity_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/value_marginBottom"
         android:text="@string/textView_quantity_value"
         android:textColor="@android:color/black"
-        android:textSize="@dimen/quantity_value_textSize" />
+        android:textSize="@dimen/value_textSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/header_marginBottom"
+        android:text="@string/textView_price_header"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/price_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/value_marginBottom"
+        android:text="@string/textView_price_value"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/value_textSize" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/button_order_marginTop"
         android:onClick="submitOrder"
         android:text="@string/button_order" />
 
