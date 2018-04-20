@@ -15,14 +15,26 @@
         android:text="@string/textView_quantity_header"
         android:textAllCaps="true" />
 
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/button_plus"
+        android:onClick="increment" />
+
     <TextView
         android:id="@+id/quantity_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/value_marginBottom"
         android:text="@string/textView_quantity_value"
         android:textColor="@android:color/black"
         android:textSize="@dimen/value_textSize" />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="@dimen/value_marginBottom"
+        android:text="@string/button_minus"
+        android:onClick="decrement" />
 
     <TextView
         android:layout_width="wrap_content"

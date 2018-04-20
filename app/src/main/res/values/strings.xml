@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">Just Java</string>
     <string name="button_order">Order</string>
-    <string name="textView_quantity_value">0</string>
+    <string name="textView_quantity_value">2</string>
     <string name="textView_quantity_header">Quantity</string>
-    <string name="textView_price_value">Rs. 0</string>
+    <string name="textView_price_value">Rs. 100</string>
     <string name="textView_price_header">Price</string>
+    <string name="button_minus">-</string>
+    <string name="button_plus">+</string>
 </resources>
