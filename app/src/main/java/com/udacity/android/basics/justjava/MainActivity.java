@@ -40,8 +40,9 @@ public class MainActivity extends AppCompatActivity {
      * This method is called when the order button is clicked.
      */
     public void submitOrder(View view) {
-        String message = "Item Count:\t" + quantity + " Coffees\n"
-                + "Total Price:\t" + NumberFormat.getCurrencyInstance().format(quantity * 50);
+        int price = quantity * 50;
+        String message = "Total: " + NumberFormat.getCurrencyInstance().format(price);
+        message = message + "\nThank You!";
         displayMessage(message);
     }
 
