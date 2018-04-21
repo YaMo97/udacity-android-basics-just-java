@@ -8,4 +8,35 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="header">
+        <item name="android:layout_marginBottom">@dimen/header_marginBottom</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="value">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/value_textSize</item>
+        <item name="android:layout_marginBottom">@dimen/value_marginBottom</item>
+    </style>
+
+    <style name="value.Quantity">
+        <item name="android:layout_marginLeft">@dimen/quantity_value_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/quantity_value_marginRight</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="button.quantityPicker">
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:layout_marginBottom">@dimen/value_marginBottom</item>
+    </style>
+
 </resources>

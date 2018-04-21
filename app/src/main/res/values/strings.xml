@@ -7,4 +7,7 @@
     <string name="textView_price_header">Price</string>
     <string name="button_minus">-</string>
     <string name="button_plus">+</string>
+    <string name="thank_you">\nThank You!</string>
+    <string name="total">Total:</string>
+    <string name="line_separator">line.separator</string>
 </resources>

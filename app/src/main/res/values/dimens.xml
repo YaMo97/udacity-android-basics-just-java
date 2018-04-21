@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="value_textSize">16sp</dimen>
-    <dimen name="header_marginBottom">16dp</dimen>
-    <dimen name="value_marginBottom">16dp</dimen>
     <dimen name="activity_padding">16dp</dimen>
     <dimen name="button_width">48dp</dimen>
     <dimen name="button_height">48dp</dimen>
-    <dimen name="quantity_value_marginEnd">8dp</dimen>
-    <dimen name="quantity_value_marginStart">8dp</dimen>
+    <dimen name="header_marginBottom">16dp</dimen>
     <dimen name="quantity_value_marginLeft">8dp</dimen>
     <dimen name="quantity_value_marginRight">8dp</dimen>
+    <dimen name="value_textSize">16sp</dimen>
+    <dimen name="value_marginBottom">16dp</dimen>
 </resources>
